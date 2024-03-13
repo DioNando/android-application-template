@@ -57,8 +57,7 @@
                 android:padding="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+                app:layout_constraintStart_toStartOf="parent">
 
                 <TextView
                     android:id="@+id/textView"
@@ -100,7 +99,7 @@
                     android:inputType="textPassword" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btnLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
@@ -116,7 +115,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/btnNavigateToRegister"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
@@ -125,10 +124,12 @@
                         android:textColor="@color/grey" />
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btnNavigateToHome"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
+                        android:background="@drawable/outline_btn_ui"
+                        android:textColor="@color/primary"
                         android:text="Consult as a guest" />
 
                 </LinearLayout>
